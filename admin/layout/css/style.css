@@ -1,0 +1,159 @@
+/* main color #3fbbaa */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eee;
+}
+
+/* navbar */
+/* tittle */
+
+
+.line1 , .line2 , .line3{
+	width: 23px;
+	height: 3px;
+	margin:5px;
+	background: #FFF;
+	transition: all .5s;
+}
+.h2{
+	font-family:serif;
+	display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px #000;
+    transition: all .5s;
+	padding: 10px;
+}
+
+.o{
+	color: #3fbbaa;
+}
+.navbar h2 .fa-shopping-cart{
+	color: #3fbbaa;
+} 
+/* end tittle */
+.sidebar {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .9)), url(../images/com-bp4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 7px 25px #999;
+}
+
+.bottom-border {
+  border-bottom: 1px groove #eee;
+}
+
+.sidebar-link {
+  transition: all .4s;
+}
+
+.sidebar-link:hover {
+  background-color: #444;
+  border-radius: 5px;
+}
+
+.current {
+  background-color: #3fbbaa;
+  border-radius: 7px;
+  box-shadow: 2px 5px 10px #111;
+  transition: all .3s;
+}
+
+.current:hover {
+background-color: #39a596;
+  border-radius: 7px;
+  box-shadow: 2px 5px 20px #111;
+  transform: translateY(-1px);
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #999;
+  transition: all .4s;
+  color: #d2d2d2 !important;
+}
+
+.search-input:focus {
+  background: transparent;
+  box-shadow: none;
+  border-bottom: 2px solid #3fbbaa;
+}
+
+.search-button {
+  border-radius: 50%;
+  padding: 10px 16px;
+  transition: all .4s;
+}
+.icons , .pagination span , .pagination .page-link {
+	color:#3fbbaa;
+}
+.btn-info , .page-item.active .page-link{
+	background:#3fbbaa !important; 
+	border: #3fbbaa;
+}
+.search-button:hover {
+  background-color: #eee;
+  transform: translateY(-1px);
+}
+
+.icon-parent {
+  position: relative;
+}
+
+.icon-bullet::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 15px;
+  height: 12px;
+  width: 12px;
+  background-color: #dc3545;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+  }
+
+  .top-navbar {
+    position: static;
+  }
+}
+/* end of navbar */
+
+/* cards */
+.card-common {
+  box-shadow: 1px 2px 5px #999;
+  transition: all .4s;
+}
+
+.card-common:hover {
+  box-shadow: 2px 3px 15px #999;
+  transform: translateY(-1px);
+}
+/* end of cards */
+
+/* task list */
+.task-border {
+  border-left: 3px solid #f66436;
+}
+/* end of task list */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
